@@ -1,0 +1,33 @@
+.product-container{
+  text-align: center;
+  padding: 15px;
+}
+
+.product-container .category-name{
+  color: blue;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+.product-container .product-item-container img{
+  max-width: 200px;
+}
+
+.parent-item-container{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.product-item-container{
+  width: calc(33.33% - 12px);
+  border: 1px solid #ddd;
+}
+.oprice{
+  color: #999;
+  padding-right: 10px;
+  text-decoration: line-through;
+}
+.dprice{
+  color: #000;
+  font-weight: bold;
+}
